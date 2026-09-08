@@ -6,7 +6,7 @@ const swaggerJSDoc = require('swagger-jsdoc');
 // a suffix (e.g. localink-api-omega.vercel.app). Override either with an env var.
 const API_URL = process.env.API_PUBLIC_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:8000');
 
-const SITE_URL = process.env.SITE_URL || 'https://localink-shop.vercel.app';
+const SITE_URL = process.env.SITE_URL || 'https://local-link-electronics-5u3o.vercel.app';
 
 // Swagger definition
 const swaggerDefinition = {

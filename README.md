@@ -5,7 +5,7 @@ Welcome to **Localink**, a **MERN-Stack E-commerce Application**! This project i
 It also aims to provide a comprehensive example of building a modern e-commerce platform, covering frontend user interface, backend server logic, database management, and integration with third-party libraries. Let's dive in!
 
 <p align="center">
-  <a href="https://localink-shop.vercel.app/" target="_blank">
+  <a href="https://local-link-electronics-5u3o.vercel.app/" target="_blank">
     <img src="docs/logo.png" alt="Localink Logo" style="border-radius: 10px" width="35%"/>
   </a>
 </p>
@@ -139,7 +139,7 @@ The application is designed to be user-friendly and responsive, providing a seam
 
 ## Live Deployment
 
-The application is deployed live on Vercel. You can access it at the following URL: **[Localink App](https://localink-shop.vercel.app).**
+The application is deployed live on Vercel. You can access it at the following URL: **[Localink App](https://local-link-electronics-5u3o.vercel.app).**
 
 The **primary** backend server is deployed on Vercel and can be accessed at the following URL: **[Localink API](https://localink-api.vercel.app/)**.
 
