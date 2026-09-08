@@ -731,7 +731,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 Localink was created with ❤️ by:
 
 - **Sahil Purkayasta** - [Sahil-Gitam](https://github.com/Sahil-Gitam)
-- **Email:** [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
+- **Email:** [sahilpurkayastha426@gmail.com](mailto:sahilpurkayastha426@gmail.com).
 
 ---
 

@@ -986,7 +986,7 @@ vercel --prod
 
 For issues, questions, or contributions:
 - **GitHub Issues**: https://github.com/Sahil-Gitam/LocalLink-electronics/issues
-- **Email**: hoangson091104@gmail.com
+- **Email**: sahilpurkayastha426@gmail.com
 - **Author**: Sahil Purkayasta (@Sahil-Gitam)
 
 ---

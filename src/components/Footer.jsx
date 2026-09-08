@@ -3,9 +3,7 @@ import { Box, Container, Grid, Typography, Link as MuiLink, Stack, TextField, Ic
 import { Link as RouterLink } from 'react-router-dom';
 import SendIcon from '@mui/icons-material/Send';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import LanguageIcon from '@mui/icons-material/Language';
 import PrivacyTipOutlinedIcon from '@mui/icons-material/PrivacyTipOutlined';
 import GavelIcon from '@mui/icons-material/Gavel';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
@@ -32,9 +30,7 @@ const helpLinks = [
 
 const socialLinks = [
   { icon: <GitHubIcon />, label: 'GitHub', href: 'https://github.com/Sahil-Gitam' },
-  { icon: <LinkedInIcon />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/hoangsonw/' },
-  { icon: <LanguageIcon />, label: 'Portfolio', href: 'https://sonnguyenhoang.com/' },
-  { icon: <EmailIcon />, label: 'Email', href: 'mailto:hoangson091104@gmail.com' },
+  { icon: <EmailIcon />, label: 'Email', href: 'mailto:sahilpurkayastha426@gmail.com' },
 ];
 
 const policyLinks = [

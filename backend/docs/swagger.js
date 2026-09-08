@@ -1,6 +1,13 @@
 const path = require('path');
 const swaggerJSDoc = require('swagger-jsdoc');
 
+// Public URLs. On Vercel, VERCEL_PROJECT_PRODUCTION_URL is the stable production
+// domain of this project, so the docs stay correct even if the project name got
+// a suffix (e.g. localink-api-omega.vercel.app). Override either with an env var.
+const API_URL = process.env.API_PUBLIC_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:8000');
+
+const SITE_URL = process.env.SITE_URL || 'https://localink-shop.vercel.app';
+
 // Swagger definition
 const swaggerDefinition = {
   openapi: '3.0.0',
@@ -9,11 +16,11 @@ const swaggerDefinition = {
     version: '1.1.0',
     description:
       'API documentation for the Localink E-Commerce backend server. This documentation provides detailed information on all available endpoints for managing products, users, authentication, and more.',
-    termsOfService: 'https://localink-shop.vercel.app',
+    termsOfService: `${SITE_URL}/terms`,
     contact: {
       name: 'Localink E-Commerce Website',
-      url: 'https://localink-shop.vercel.app',
-      email: 'hoangson091104@gmail.com',
+      url: SITE_URL,
+      email: 'sahilpurkayastha426@gmail.com',
     },
     license: {
       name: 'MIT License',
@@ -22,12 +29,8 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'https://localink-api.vercel.app',
+      url: API_URL,
       description: 'Production server',
-    },
-    {
-      url: 'https://localink-api.vercel.app',
-      description: 'Production (backup) server',
     },
     {
       url: 'http://localhost:8000',
