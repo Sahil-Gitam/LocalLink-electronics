@@ -1,0 +1,29 @@
+---
+# Pod Disruption Budget for Frontend
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: localink-frontend-pdb
+  namespace: localink
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app: localink
+      component: frontend
+  unhealthyPodEvictionPolicy: AlwaysAllow
+
+---
+# Pod Disruption Budget for Backend
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: localink-backend-pdb
+  namespace: localink
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app: localink
+      component: backend
+  unhealthyPodEvictionPolicy: AlwaysAllow

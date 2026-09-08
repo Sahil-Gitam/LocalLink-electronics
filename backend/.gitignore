@@ -1,0 +1,4 @@
+.env
+/node_modules
+.vercel
+run-localink-cron.log
